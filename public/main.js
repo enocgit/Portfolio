@@ -37,13 +37,13 @@ let date = new Date()
 
 // console.log(date.getTime())
 if(date.getHours() >= 0 && date.getHours() < 12){
-    greeting.textContent = 'Good morning...'
+    greeting.textContent = 'Good Morning'
 }
 else if (date.getHours() >= 12 && date.getHours() < 17){
-    greeting.textContent = 'Good afternoon...'
+    greeting.textContent = 'Good Afternoon'
 }
 else {
-    greeting.textContent = 'Good evening...'
+    greeting.textContent = 'Good Evening'
 }
 
 
