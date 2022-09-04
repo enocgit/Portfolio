@@ -1,0 +1,25 @@
+* {
+    outline-color: #D7C49EFF;
+}
+
+#img-bg {
+    animation-name: pop;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes pop {
+    0% {
+        transform: scale(1.05);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
