@@ -633,6 +633,42 @@ video {
   bottom: 5rem;
 }
 
+.top-20 {
+  top: 5rem;
+}
+
+.top-40 {
+  top: 10rem;
+}
+
+.top-\[40rem\] {
+  top: 40rem;
+}
+
+.left-56 {
+  left: 14rem;
+}
+
+.top-\[50rem\] {
+  top: 50rem;
+}
+
+.top-\[46rem\] {
+  top: 46rem;
+}
+
+.top-\[44rem\] {
+  top: 44rem;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.left-32 {
+  left: 8rem;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -810,6 +846,16 @@ video {
   background-color: rgb(254 240 138 / var(--tw-bg-opacity));
 }
 
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f5e2bb\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 226 187 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'images\/People_of_Brooklyn_Relaxing\.png\'\)\] {
   background-image: url('images/People_of_Brooklyn_Relaxing.png');
 }
@@ -926,6 +972,14 @@ video {
   font-weight: 800;
 }
 
+.font-\[900\] {
+  font-weight: 900;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
 .leading-tight {
   line-height: 1.25;
 }
@@ -975,6 +1029,11 @@ video {
   color: rgb(255 247 237 / var(--tw-text-opacity));
 }
 
+.text-\[\#f5e2bb\] {
+  --tw-text-opacity: 1;
+  color: rgb(245 226 187 / var(--tw-text-opacity));
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -1022,6 +1081,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-\[\#f5e2bb\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(245 226 187 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:left-\[10\.5rem\] {
     left: 10.5rem;
@@ -1029,6 +1093,38 @@ video {
 
   .sm\:top-\[10rem\] {
     top: 10rem;
+  }
+
+  .sm\:top-\[40rem\] {
+    top: 40rem;
+  }
+
+  .sm\:left-60 {
+    left: 15rem;
+  }
+
+  .sm\:left-80 {
+    left: 20rem;
+  }
+
+  .sm\:left-96 {
+    left: 24rem;
+  }
+
+  .sm\:left-20 {
+    left: 5rem;
+  }
+
+  .sm\:top-\[44rem\] {
+    top: 44rem;
+  }
+
+  .sm\:left-36 {
+    left: 9rem;
+  }
+
+  .sm\:left-40 {
+    left: 10rem;
   }
 
   .sm\:mx-40 {
@@ -1059,6 +1155,18 @@ video {
     left: 13.3rem;
   }
 
+  .md\:left-48 {
+    left: 12rem;
+  }
+
+  .md\:left-56 {
+    left: 14rem;
+  }
+
+  .md\:left-52 {
+    left: 13rem;
+  }
+
   .md\:mx-52 {
     margin-left: 13rem;
     margin-right: 13rem;
@@ -1084,6 +1192,38 @@ video {
 
   .lg\:left-20 {
     left: 5rem;
+  }
+
+  .lg\:top-60 {
+    top: 15rem;
+  }
+
+  .lg\:top-96 {
+    top: 24rem;
+  }
+
+  .lg\:top-\[30rem\] {
+    top: 30rem;
+  }
+
+  .lg\:top-\[40rem\] {
+    top: 40rem;
+  }
+
+  .lg\:left-40 {
+    left: 10rem;
+  }
+
+  .lg\:left-60 {
+    left: 15rem;
+  }
+
+  .lg\:left-64 {
+    left: 16rem;
+  }
+
+  .lg\:left-72 {
+    left: 18rem;
   }
 
   .lg\:mx-5 {
@@ -1168,6 +1308,14 @@ video {
     left: 24.3rem;
   }
 
+  .xl\:left-80 {
+    left: 20rem;
+  }
+
+  .xl\:left-96 {
+    left: 24rem;
+  }
+
   .xl\:mx-96 {
     margin-left: 24rem;
     margin-right: 24rem;
@@ -1177,6 +1325,10 @@ video {
 @media (min-width: 1536px) {
   .\32xl\:left-\[30\.3rem\] {
     left: 30.3rem;
+  }
+
+  .\32xl\:left-\[30rem\] {
+    left: 30rem;
   }
 
   .\32xl\:mx-\[30rem\] {
